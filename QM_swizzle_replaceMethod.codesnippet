@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>replaceMethod</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>+ (void)load {
+    static dispatch_once_t onceToken;
+    dispatch_once(&amp;onceToken, ^{
+        Class class = [self class];
+        SEL originSelector = @selector(&lt;#origin selector#&gt;);
+        SEL newSelector = @selector(&lt;#new selector#&gt;);
+        Method oriMethod = class_getInstanceMethod(class, originSelector);
+        Method newMethod = class_getInstanceMethod(class, newSelector);
+        BOOL isAddedMethod = class_addMethod(class, originSelector, method_getImplementation(newMethod), method_getTypeEncoding(newMethod));
+        if (isAddedMethod) {
+            class_replaceMethod(class, newSelector, method_getImplementation(oriMethod), method_getTypeEncoding(oriMethod));
+        } else {
+            method_exchangeImplementations(oriMethod, newMethod);
+        }
+    });
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0219854F-3A75-483E-9F4A-EFA34646365E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>用来写replace method的load方法模板</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>replace method in +load</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
