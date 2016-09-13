@@ -29,6 +29,7 @@ Xcode 的 Code Snippets 文件存放于 `~/Library/Developer/Xcode/UserData/Code
 - `propertySwizzleWeak` - 用 `swizzle` 的方式定义一个 `weak` 的property
 - `sharedInstance` - 为当前类创建一个实现单例功能的 `sharedInstance` 方法
 - `replaceMethod` - 重写当前类的 `load` 方法并在其中用 `swizzle` 替换方法实现
+- `replaceMethod_QMUI` - ::QMUI:: 重写当前类的 `load` 方法并用 `ReplaceMethod()` 函数替换方法的实现
 
 
 *Block*
