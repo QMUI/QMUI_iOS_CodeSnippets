@@ -1,14 +1,16 @@
 # qmui-ios-codesnippets
 *qmui-ios-codesnippets* 是一个 QMUI 团队日常工作中整理出来的用于 Xcode 的 iOS 通用代码片段集，其中也包含若干专用于 QMUI for iOS 框架的代码片段。
+
 整理这个代码片段集的初衷有以下几点：
+
 1. 我们发现由于 Xcode 本身的功能不足，导致我们经常在重写一些系统父类方法时容易忘了调用 `super`，从而出现一些很难排查的诡异bug。
 2. Xcode 虽然有模糊匹配的代码提醒，但代码提醒只能帮你写方法名，而code snippets 还可以帮你填充一些默认的方法实现，或者直接移动光标到方法体内，省去几次光标操作。
 3. 一些常用的写法本身语法可能比较复杂，难以记忆，例如实现一个类的单例、使用 `swizzle` 来重写系统控件的方法、block 在不同地方的语法不同等。
 4. 一些代码本身看似简单，但由于特别常用，所以使用 code snippets 可以大大节省时间。
 ## 使用方式
 Xcode 的 Code Snippets 文件存放于 `~/Library/Developer/Xcode/UserData/CodeSnippets ` 目录，只要直接把 `*.codesnippets` 文件放到这个目录下（若没有则自己创建），重启 Xcode 即可生效。
-为了方便更新，建议直接将 [qmui-ios-codesnippets](https://github.com/QMUI/qmui-ios-codesnippets) `clone` 到这个目录内。
-其中以 `QM_` 前缀开头的文件是通用的 Code Snippets，以 `QMUI_` 前缀开头的文件是专用于 `QMUI for iOS` 框架的代码片段。在下方的快捷键汇总里，QMUI 的代码片段将会以QMUI的形式标记出来。
+
+为了方便更新，建议直接将 [qmui-ios-codesnippets](https://github.com/QMUI/qmui-ios-codesnippets) `clone` 到这个目录内。其中以 `QM_` 前缀开头的文件是通用的 Code Snippets，以 `QMUI_` 前缀开头的文件是专用于 `QMUI for iOS` 框架的代码片段。在下方的快捷键汇总里，QMUI 的代码片段将会以QMUI的形式标记出来。
 ## 快捷键汇总
 *NSObject*
 - `pa` - 定义一个 `assign` 的 property
