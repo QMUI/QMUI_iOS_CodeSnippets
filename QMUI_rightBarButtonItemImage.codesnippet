@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>rightBarButtonItemImage</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIBarButtonItem *&lt;#itemName#&gt; = [QMUINavigationButton barButtonItemWithImage:UIImageMake(@"&lt;#imageNamed#&gt;") position:QMUINavigationButtonPositionRight target:self action:@selector(handle&lt;#ItemName#&gt;Event:)];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>35F7D6D2-ADA0-469A-99D1-510E1EFB0646</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>生成一个图片的UIBarButtonItem用于rightBarButtonItem</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

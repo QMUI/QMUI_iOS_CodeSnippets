@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>externh</string>
+	<string>externRefInM</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>extern &lt;#type#&gt; *const &lt;#name#&gt;;</string>
+	<string>&lt;#type#&gt; *const &lt;#name#&gt; = &lt;#value#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>21FDCAF1-C5B5-4F0C-A9EE-895654127294</string>
+	<string>05ACBB91-A78D-402C-807A-47886AD29A07</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>extern in *.h file</string>
+	<string>extern Reference in *.m file</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
