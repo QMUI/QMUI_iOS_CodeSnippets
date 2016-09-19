@@ -6,7 +6,7 @@
 	<string>setFrameX</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>&lt;#view#&gt;.frame = CGRectSetX(&lt;#view#&gt;.frame, &lt;#x#&gt;);</string>

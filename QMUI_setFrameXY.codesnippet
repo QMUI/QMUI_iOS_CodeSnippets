@@ -6,7 +6,7 @@
 	<string>setFrameXY</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>&lt;#view#&gt;.frame = CGRectSetXY(&lt;#view#&gt;.frame, &lt;#x#&gt;, &lt;#y#&gt;);</string>
