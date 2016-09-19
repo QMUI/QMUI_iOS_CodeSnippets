@@ -61,8 +61,6 @@ Xcode 的 Code Snippets 文件存放于 `~/Library/Developer/Xcode/UserData/Code
 - `getHeight` - 展开 `CGRectGetHeight()`
 - `getMinX` - 展开 `CGRectGetMinX()`
 - `getMinY` - 展开 `CGRectGetMinY()`
-- `getHor` - QMUI 展开 `UIEdgeInsetsGetHorizontalValue()`
-- `getVer` - QMUI 展开 `UIEdgeInsetsGetVerticalValue()`
 - `addtarget` - 调用 `UIControl addTarget:action:forEvents:` 方法
 - `setImageForButton` - 为 `UIButton` 设置图片
 - `setTitleColorForButton` - 为 `UIButton` 设置文字颜色
