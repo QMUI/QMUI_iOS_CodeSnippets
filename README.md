@@ -95,6 +95,8 @@ Xcode 的 Code Snippets 文件存放于 `~/Library/Developer/Xcode/UserData/Code
 - `viewWillDisappear` - 展开 `viewWillDisappear:` 方法
 - `viewDidDisappear` - 展开 `viewDidDisappear:` 方法
 - `viewDidLayoutSubviews` - 展开 `viewDidLayoutSubviews:` 方法
+- `addChildViewController` - 在当前 `UIViewController` 里添加 `childViewController`
+- `removeFromParentViewController` - 将 `childViewController` 从当前的 `UIViewController` 里移除
 - `initSubviews` - QMUI 展开 `initSubviews` 方法
 - `setNavigationItems` - QMUI 重写 `QMUICommonViewController` 里的 `setNavigationItemsIsInEditMode:animated:` 方法
 - `setToolbarItems` - QMUI 重写 `QMUICommonViewController` 里的 `setToolbarItemsIsInEditMode:animated:` 方法
