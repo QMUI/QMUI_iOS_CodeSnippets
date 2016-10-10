@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
-    return &lt;#numberOfSections#&gt;
+    return &lt;#numberOfSections#&gt;;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>BCBDF4CD-8EAD-48F7-A96A-8A48C188D1C2</string>
