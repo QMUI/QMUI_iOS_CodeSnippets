@@ -57,6 +57,7 @@ Xcode 的 Code Snippets 文件存放于 `~/Library/Developer/Xcode/UserData/Code
 - `setFrameXY` - QMUI 使用 `CGRectSetXY()` 修改 `UIView` 的 `frame.origin`
 - `sizeThatFits` - 为当前 view 创建 `sizeThatFits:` 方法
 - `layoutSubviews` - 展开 `layoutSubviews` 方法
+- `updateConstraints` - 展开 `updateConstraints` 方法
 - `getWidth` - 展开 `CGRectGetWidth()`
 - `getHeight` - 展开 `CGRectGetHeight()`
 - `getMinX` - 展开 `CGRectGetMinX()`
@@ -95,6 +96,7 @@ Xcode 的 Code Snippets 文件存放于 `~/Library/Developer/Xcode/UserData/Code
 - `viewWillDisappear` - 展开 `viewWillDisappear:` 方法
 - `viewDidDisappear` - 展开 `viewDidDisappear:` 方法
 - `viewDidLayoutSubviews` - 展开 `viewDidLayoutSubviews:` 方法
+- `updateViewConstraints` - 展开 `updateViewConstraints:` 方法
 - `addChildViewController` - 在当前 `UIViewController` 里添加 `childViewController`
 - `removeFromParentViewController` - 将 `childViewController` 从当前的 `UIViewController` 里移除
 - `initSubviews` - QMUI 展开 `initSubviews` 方法
@@ -105,7 +107,7 @@ Xcode 的 Code Snippets 文件存放于 `~/Library/Developer/Xcode/UserData/Code
 
 
 *Other*
-- `pragma` - ￼展开一个用于 Xcode 导航的 `#pragma mark -` 宏￼
+- `pragma` - 展开一个用于 Xcode 导航的 `#pragma mark -` 宏
 - `externRefInH` - 在 `*.h` 文件里声明一个 `extern const` 的指针
 - `externRefInM` - 在 `*.m` 文件里为一个 `extern const` 的指针赋值
 - `externValueInH` - 在 `*.h` 文件里声明一个 `extern const` 的值变量
