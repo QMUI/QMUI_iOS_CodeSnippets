@@ -14,7 +14,7 @@
     CGFloat resultHeight = 0;
     &lt;#calc code#&gt;
 
-    resultSize.height = fminf(resultHeight, size.height);
+    resultSize.height = fmin(resultHeight, size.height);
     return resultSize;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
