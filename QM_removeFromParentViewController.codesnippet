@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>[&lt;#childViewController#&gt; willMoveToParentViewController:nil];
         [&lt;#childViewController#&gt;.view removeFromSuperview];
-        [&lt;#childViewController removeFromParentViewController];</string>
+        [&lt;#childViewController#&gt; removeFromParentViewController];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>04996CD3-4E1F-49A9-A3CC-C3E42D5673BB</string>
 	<key>IDECodeSnippetLanguage</key>
