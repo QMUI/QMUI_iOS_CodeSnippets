@@ -10,11 +10,11 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>static char kAssociatedObjectKey_&lt;#property name#&gt;;
-- (void)set&lt;#Property name#&gt;:(&lt;#Property type#&gt; *)argv {
-    objc_setAssociatedObject(self, &amp;kAssociatedObjectKey_&lt;#property name#&gt;, argv, OBJC_ASSOCIATION_ASSIGN);
+- (void)set&lt;#property name#&gt; {
+    objc_setAssociatedObject(self, &amp;kAssociatedObjectKey_&lt;#property name#&gt;, &lt;#argument name#&gt;, OBJC_ASSOCIATION_ASSIGN);
 }
 
-- (&lt;#Property type#&gt; *)&lt;#property name#&gt; {
+- &lt;#property getter#&gt; {
     return (&lt;#Property type#&gt; *)objc_getAssociatedObject(self, &amp;kAssociatedObjectKey_&lt;#property name#&gt;);
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
