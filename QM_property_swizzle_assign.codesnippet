@@ -15,7 +15,7 @@
 }
 
 - &lt;#property getter#&gt; {
-    return [((NSNumber *)objc_getAssociatedObject(self, &amp;kAssociatedObjectKey_&lt;#property name#&gt;)) &lt;#property value type#&gt;];
+    return [((NSNumber *)objc_getAssociatedObject(self, &amp;kAssociatedObjectKey_&lt;#property name#&gt;)) &lt;#NSNumber value type for property#&gt;];
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>83D77BF6-443B-4513-A2C3-DAE9263D6995</string>
