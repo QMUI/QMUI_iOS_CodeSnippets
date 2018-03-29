@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>replaceMethod</string>
+	<string>exchangeImplementation</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -30,9 +30,9 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>用来写replace method的load方法模板</string>
+	<string>用来写 exchange implementations 的 load 方法模板</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>replace method in +load</string>
+	<string>exchange method implementations in +load</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
