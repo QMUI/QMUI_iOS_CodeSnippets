@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>override_return_argv</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>OverrideImplementation([&lt;#targetClass#&gt; class], @selector(&lt;#targetSelector#&gt;), ^id(__unsafe_unretained Class originClass, SEL originCMD, IMP originIMP) {
+        return ^&lt;#returnType#&gt;(&lt;#targetClass#&gt; *selfObject, &lt;#argumentType#&gt; firstArgv) {
+            
+            // call super
+            &lt;#returnType#&gt; (*originSelectorIMP)(id, SEL, &lt;#argumentType#&gt;);
+            originSelectorIMP = (&lt;#returnType#&gt; (*)(id, SEL, &lt;#argumentType#&gt;))originIMP;
+            &lt;#returnType#&gt; result = originSelectorIMP(selfObject, originCMD, firstArgv);
+            
+            // avoid superclass
+            if (![selfObject isKindOfClass:originClass]) return result;
+            
+            return &lt;#custom override#&gt;
+        };
+    });</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>56A38ADE-F1BD-4B31-81B5-EE230595C776</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Override Implementation Of Non Void Return Single Argument</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
