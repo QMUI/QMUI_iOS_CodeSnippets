@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>leftBarButtonItemImage</string>
+	<string>imageItem</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UIBarButtonItem *&lt;#itemName#&gt; = [QMUINavigationButton barButtonItemWithImage:UIImageMake(@"&lt;#imageNamed#&gt;") position:QMUINavigationButtonPositionLeft target:self action:@selector(handle&lt;#ItemName#&gt;Event:)];</string>
+	<string>[UIBarButtonItem qmui_itemWithImage:UIImageMake(@"&lt;#image name#&gt;") target:self action:@selector(&lt;#selector name#&gt;)];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8A200EAA-9CCF-496C-98D5-8C6C23CBFA5E</string>
+	<string>3A422B1A-0422-41EC-8CB7-D7B961CDC76D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>生成一个图片的UIBarButtonItem用于leftBarButtonItem</string>
+	<string>Image UIBarButtonItem</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,21 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>extend_void_nonA</string>
+	<string>boldTitleItem</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>ExtendImplementationOfVoidMethodWithoutArguments([&lt;#targetClass#&gt; class], @selector(&lt;#targetSelector#&gt;), ^(&lt;#targetClass#&gt; *selfObject) {
-        &lt;#custom extend#&gt;
-    });</string>
+	<string>[UIBarButtonItem qmui_itemWithBoldTitle:&lt;#(nullable NSString *)#&gt; target:self action:@selector(&lt;#selector name#&gt;)];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>61D9E89B-0189-4153-8FFA-7B8C2EE05F9D</string>
+	<string>5A3AB4AB-26DC-4402-BE47-D87BF8D620E0</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Extend Implementation Of Void Return Non Argument</string>
+	<string>Bold Title UIBarButtonItem</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
