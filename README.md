@@ -19,17 +19,28 @@ Xcode 的 Code Snippets 文件存放于 `~/Library/Developer/Xcode/UserData/Code
 ## 快捷键汇总
 *NSObject*
 - `pa` - 定义一个 `assign` 的 property
+- `par` - 定义一个 `assign, readonly` 的 property
 - `pc` - 定义一个 `copy` 的 property
 - `ps` - 定义一个 `strong` 的property
 - `psr` - 定义一个 `strong, readonly` 的property
 - `pw` - 定义一个 `weak` 的property
+- `pwr` - 定义一个 `weak, readonly` 的property
 - `propertySwizzleAssign` - 用 `swizzle` 的方式定义一个 `assign` 的property
 - `propertySwizzleCopy` - 用 `swizzle` 的方式定义一个 `copy` 的property
 - `propertySwizzleStrong` - 用 `swizzle` 的方式定义一个 `strong` 的property
 - `propertySwizzleWeak` - 用 `swizzle` 的方式定义一个 `weak` 的property
 - `sharedInstance` - 为当前类创建一个实现单例功能的 `sharedInstance` 方法
-- `replaceMethod` - 重写当前类的 `load` 方法并在其中用 `swizzle` 替换方法实现
-- `replaceMethod_QMUI` - QMUI 重写当前类的 `load` 方法并用 `ReplaceMethod()` 函数替换方法的实现
+- `exchangeImplementation` - 重写当前类的 `load` 方法并在其中用 `swizzle` 替换方法实现
+- `exchangeImplementation_QMUI` - 用 QMUI 重写当前类的 `load` 方法并用 `ExchangeImplementations()` 函数替换方法的实现
+- `exchangeMultipleImplementations_QMUI` - 用 QMUI 重写当前类的 `load` 方法并用 `ExchangeImplementations()` 函数批量替换多个方法的实现
+- `override_void_nonArgv` - 用 QMUI 的 `OverrideImplementation()` 重写指定 class 的某个无返回值、无参数的方法实现
+- `override_void_argv` - 用 QMUI 的 `OverrideImplementation()` 修改指定 class 的某个无返回值、带一个参数的方法实现
+- `override_return_nonA` - 用 QMUI 的 `OverrideImplementation()` 修改指定 class 的某个带返回值、无参数的方法实现
+- `override_return_argv` - 用 QMUI 的 `OverrideImplementation()` 修改指定 class 的某个带返回值、带一个参数的方法实现
+- `extend_void_nonA` - 用 QMUI 的 `ExtendImplementationOfVoidMethodWithoutArguments()` 修改指定 class 的某个无返回值、无参数的方法实现
+- `extend_void_argv` - 用 QMUI 的 `ExtendImplementationOfVoidMethodWithSingleArgument()` 修改指定 class 的某个无返回值、带一个参数的方法实现
+- `extend_return_nonArgv` - 用 QMUI 的 `ExtendImplementationOfNonVoidMethodWithoutArguments()` 修改指定 class 的某个带返回值、无参数的方法实现
+- `extend_return_argv` - 用 QMUI 的 `ExtendImplementationOfNonVoidMethodWithSingleArgument()` 修改指定 class 的某个带返回值、带一个参数的方法实现
 
 
 *Block*
@@ -89,6 +100,9 @@ Xcode 的 Code Snippets 文件存放于 `~/Library/Developer/Xcode/UserData/Code
 
 
 *UIViewController*
+- `initWithNib` - 展开 `initWithNibName:bundle:` 方法
+- `didInitialized` - 展开某些 QMUI 控件提供的 `didInitialized` 方法
+- `didInitializedWithStyle` - 展开 QMUICommonTableViewController 的 `didInitializedWithStyle:` 方法
 - `loadView` - 展开 `loadView` 方法
 - `viewDidLoad` - 展开 `viewDidLoad` 方法
 - `viewWillAppear` - 展开 `viewWillAppear:` 方法
@@ -100,14 +114,20 @@ Xcode 的 Code Snippets 文件存放于 `~/Library/Developer/Xcode/UserData/Code
 - `addChildViewController` - 在当前 `UIViewController` 里添加 `childViewController`
 - `removeFromParentViewController` - 将 `childViewController` 从当前的 `UIViewController` 里移除
 - `initSubviews` - QMUI 展开 `initSubviews` 方法
-- `setNavigationItems` - QMUI 重写 `QMUICommonViewController` 里的 `setNavigationItemsIsInEditMode:animated:` 方法
-- `setToolbarItems` - QMUI 重写 `QMUICommonViewController` 里的 `setToolbarItemsIsInEditMode:animated:` 方法
-- `leftBarButtonItemImage` - QMUI 用 `QMUINavigationButton` 的方法创建一个用于 `navigationItem.leftBarButtonItem` 的 `UIBarButtonItem`
-- `rightBarButtonItemImage` - QMUI 用 `QMUINavigationButton` 的方法创建一个用于 `navigationItem.rightBarButtonItem` 的 `UIBarButtonItem`
+- `setupNavigationItems` - QMUI 重写 `QMUICommonViewController` 里的 `setupNavigationItems` 方法
+- `setupToolbarItems` - QMUI 重写 `QMUICommonViewController` 里的 `setupToolbarItems` 方法
+
+*UIBarButtonItem*
+- `backItem` - 用 QMUI 方法生成一个返回按钮
+- `boldTitleItem` - 用 QMUI 方法生成一个文字加粗的导航栏按钮
+- `closeItem` - 用 QMUI 方法生成一个导航栏上的关闭图标按钮
+- `imageItem` - 用 QMUI 方法生成一个导航栏上的图片按钮
+- `titleItem` - 用 QMUI 方法生成一个导航栏上的文字按钮
 
 
 *Other*
 - `pragma` - 展开一个用于 Xcode 导航的 `#pragma mark -` 宏
+- `if11` - 展开一个 @available(iOS 11, \*) 的 if 判断
 - `externRefInH` - 在 `*.h` 文件里声明一个 `extern const` 的指针
 - `externRefInM` - 在 `*.m` 文件里为一个 `extern const` 的指针赋值
 - `externValueInH` - 在 `*.h` 文件里声明一个 `extern const` 的值变量

@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>setToolbarItems</string>
+	<string>setupToolbarItems</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)setToolbarItemsIsInEditMode:(BOOL)isInEditMode animated:(BOOL)animated {
-    [super setToolbarItemsIsInEditMode:isInEditMode animated:animated];
+	<string>- (void)setupToolbarItems {
+    [super setupToolbarItems];
     &lt;#code#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
@@ -20,7 +20,7 @@
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>setToolbarItems</string>
+	<string>setupToolbarItems</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

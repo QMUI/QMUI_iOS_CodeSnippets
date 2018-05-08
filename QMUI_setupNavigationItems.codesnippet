@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>setNavigationItems</string>
+	<string>setupNavigationItems</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)setNavigationItemsIsInEditMode:(BOOL)isInEditMode animated:(BOOL)animated {
-    [super setNavigationItemsIsInEditMode:isInEditMode animated:animated];
+	<string>- (void)setupNavigationItems {
+    [super setupNavigationItems];
     self.title = @"&lt;##&gt;";
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
@@ -20,9 +20,9 @@
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>设置navigationItem</string>
+	<string>设置 navigationItem</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>setNavigationItems</string>
+	<string>setupNavigationItems</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
