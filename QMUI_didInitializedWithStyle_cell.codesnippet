@@ -3,25 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>didInitializedWithStyle</string>
+	<string>didInitializedWithStyle_cell</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)didInitializedWithStyle:(UITableViewStyle)style {
+	<string>- (void)didInitializedWithStyle:(UITableViewCellStyle)style {
     [super didInitializedWithStyle:style];
     &lt;##&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B35A0A1F-EA35-4D3A-A579-5FA0E7DF2AA3</string>
+	<string>8D9C07CC-59C0-4411-A4D3-AB5758DC0901</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>didInitializedWithStyle:</string>
+	<string>didInitializedWithStyle - QMUITableViewCell</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
