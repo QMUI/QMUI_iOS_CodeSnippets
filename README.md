@@ -101,8 +101,8 @@ Xcode 的 Code Snippets 文件存放于 `~/Library/Developer/Xcode/UserData/Code
 
 *UIViewController*
 - `initWithNib` - 展开 `initWithNibName:bundle:` 方法
-- `didInitialized` - 展开某些 QMUI 控件提供的 `didInitialized` 方法
-- `didInitializedWithStyle` - 展开 QMUICommonTableViewController 的 `didInitializedWithStyle:` 方法
+- `didInitialize` - 展开某些 QMUI 控件提供的 `didInitialize` 方法
+- `didInitializeWithStyle` - 展开 QMUICommonTableViewController 的 `didInitializeWithStyle:` 方法
 - `loadView` - 展开 `loadView` 方法
 - `viewDidLoad` - 展开 `viewDidLoad` 方法
 - `viewWillAppear` - 展开 `viewWillAppear:` 方法
