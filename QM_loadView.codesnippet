@@ -10,8 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>- (void)loadView {
-    [super loadView];
-    &lt;#code#&gt;
+    self.view = &lt;#custom view#&gt;;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>94A53770-ED4C-4395-AB15-CCA346BF2904</string>
