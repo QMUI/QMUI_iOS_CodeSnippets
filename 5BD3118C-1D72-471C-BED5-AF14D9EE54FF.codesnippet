@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>propertySwizzleWeak_QMUI</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>static char kAssociatedObjectKey_&lt;#property name#&gt;;
+- (void)set&lt;#property name#&gt; {
+    QMUIWeakObjectContainer *weakContainer = objc_getAssociatedObject(self, &amp;kAssociatedObjectKey_&lt;#property name#&gt;);
+    if (!weakContainer) {
+        weakContainer = [QMUIWeakObjectContainer new];
+    }
+    weakContainer.object = &lt;#argument name#&gt;;
+    objc_setAssociatedObject(self, &amp;kAssociatedObjectKey_&lt;#property name#&gt;, weakContainer, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+
+- &lt;#property getter#&gt; {
+    return (&lt;#property type#&gt; *)((QMUIWeakObjectContainer *)objc_getAssociatedObject(self, &amp;kAssociatedObjectKey_&lt;#property name#&gt;)).object;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>5BD3118C-1D72-471C-BED5-AF14D9EE54FF</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>QMUI - 用swizzle方式创建weak类型的property的getter/setter</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
