@@ -17,11 +17,15 @@
         SEL newSelector = @selector(&lt;#new selector#&gt;);
         Method oriMethod = class_getInstanceMethod(class, originSelector);
         Method newMethod = class_getInstanceMethod(class, newSelector);
-        BOOL isAddedMethod = class_addMethod(class, originSelector, method_getImplementation(newMethod), method_getTypeEncoding(newMethod));
-        if (isAddedMethod) {
-            class_replaceMethod(class, newSelector, method_getImplementation(oriMethod), method_getTypeEncoding(oriMethod));
-        } else {
-            method_exchangeImplementations(oriMethod, newMethod);
+        if (newMethod) {
+            BOOL isAddedMethod = class_addMethod(class, originSelector, method_getImplementation(newMethod), method_getTypeEncoding(newMethod));
+            if (isAddedMethod) {
+                IMP oriMethodIMP = method_getImplementation(oriMethod) ?: imp_implementationWithBlock(^(id selfObject) {});
+                const char *oriMethodTypeEncoding = method_getTypeEncoding(oriMethod) ?: "v@:";
+                class_replaceMethod(class, newSelector, oriMethodIMP, oriMethodTypeEncoding);
+            } else {
+                method_exchangeImplementations(oriMethod, newMethod);
+            }
         }
     });
 }</string>
