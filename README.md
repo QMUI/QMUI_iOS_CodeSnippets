@@ -133,7 +133,7 @@ git clone https://github.com/QMUI/QMUI_iOS_CodeSnippets.git ./
 
 *Other*
 - `pragma` - 展开一个用于 Xcode 导航的 `#pragma mark -` 宏
-- `if11` - 展开一个 @available(iOS 11, \*) 的 if 判断
+- `osif` - 展开一个 @available(iOS xxx, \*) 的 if 判断
 - `externRefInH` - 在 `*.h` 文件里声明一个 `extern const` 的指针
 - `externRefInM` - 在 `*.m` 文件里为一个 `extern const` 的指针赋值
 - `externValueInH` - 在 `*.h` 文件里声明一个 `extern const` 的值变量
