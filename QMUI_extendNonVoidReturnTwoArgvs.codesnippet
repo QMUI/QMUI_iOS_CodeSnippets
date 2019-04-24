@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>extend_return_two_argvs</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>ExtendImplementationOfNonVoidMethodWithTwoArguments([&lt;#targetClass#&gt; class], @selector(&lt;#targetSelector#&gt;), &lt;#argumentType1#&gt;, &lt;#argumentType2#&gt;, &lt;#returnType#&gt;, ^&lt;#returnType#&gt;(&lt;#targetClass#&gt; *selfObject, &lt;#argumentType1#&gt; firstArgv, &lt;#argumentType2#&gt; secondArgv, &lt;#returnType#&gt; originReturnValue) {
+            return &lt;#custom extend#&gt;;
+        });</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>DFCA59C1-07E0-4857-AE4D-3C9045016712</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Extend Implementation Of Non Void Return Two Arguments</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

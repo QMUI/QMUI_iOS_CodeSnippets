@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>extend_return_nonArgv</string>
+	<string>extend_return_non_argv</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>ExtendImplementationOfNonVoidMethodWithoutArguments([&lt;#targetClass#&gt; class], @selector(&lt;#targetSelector#&gt;), &lt;#returnType#&gt;, ^&lt;#returnType#&gt;(&lt;#targetClass#&gt; *selfObject, &lt;#returnType#&gt; originReturnValue) {

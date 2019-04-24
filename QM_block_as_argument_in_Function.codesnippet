@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>extend_void_non_argv</string>
+	<string>blockParameterInFunction</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>ExtendImplementationOfVoidMethodWithoutArguments([&lt;#targetClass#&gt; class], @selector(&lt;#targetSelector#&gt;), ^(&lt;#targetClass#&gt; *selfObject) {
-        &lt;#custom extend#&gt;
-    });</string>
+	<string>&lt;#returnType#&gt; (^&lt;#blockName#&gt;)(&lt;#parameterTypes#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>61D9E89B-0189-4153-8FFA-7B8C2EE05F9D</string>
+	<string>F0EEA7C4-643E-4347-BE1C-762B578B6929</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>C函数参数里的 block 声明</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Extend Implementation Of Void Return Non Argument</string>
+	<string>block as C function parameter</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

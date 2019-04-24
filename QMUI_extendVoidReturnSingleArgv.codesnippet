@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>extend_void_argv</string>
+	<string>extend_void_single_argv</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>ExtendImplementationOfVoidMethodWithSingleArgument([&lt;#targetClass#&gt; class], @selector(&lt;#targetSelector#&gt;), &lt;#argumentType#&gt;, ^(&lt;#targetClass#&gt; *selfObject, &lt;#argumentType#&gt; firstArgv) {
