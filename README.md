@@ -31,6 +31,7 @@ git clone https://github.com/QMUI/QMUI_iOS_CodeSnippets.git ./
 - `psr` - 定义一个 `strong, readonly` 的property
 - `pw` - 定义一个 `weak` 的property
 - `pwr` - 定义一个 `weak, readonly` 的property
+- `load_once` - 创建一个带 `dispatch_once` 的 `+load` 方法
 - `propertySwizzleAssign` - 用 `swizzle` 的方式定义一个 `assign` 的property
 - `propertySwizzleCopy` - 用 `swizzle` 的方式定义一个 `copy` 的property
 - `propertySwizzleStrong` - 用 `swizzle` 的方式定义一个 `strong` 的property
@@ -54,7 +55,8 @@ git clone https://github.com/QMUI/QMUI_iOS_CodeSnippets.git ./
 
 
 *Block*
-- `blockArguments` - 声明一个用于方法参数的 block
+- `blockParameterInMethod` - 声明一个用于 OC 方法参数的 block
+- `blockParameterInFunction` - 声明一个用于 C 函数参数的 block
 - `blockproperty` - 声明一个用于 property 的 block
 - `blocktypedef` - 用 `typedef` 定义一个 block
 - `blockvar` - 定义一个作为局部变量的 block
