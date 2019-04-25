@@ -3,24 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>extend_void_two_argvs</string>
+	<string>load_once</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>ExtendImplementationOfVoidMethodWithTwoArguments([&lt;#targetClass#&gt; class], @selector(&lt;#targetSelector#&gt;), &lt;#argumentType1#&gt;, &lt;#argumentType2#&gt;, ^(&lt;#targetClass#&gt; *selfObject, &lt;#argumentType1#&gt; firstArgv, &lt;#argumentType2#&gt; secondArgv) {
-            &lt;#custom extend#&gt;
-        });</string>
+	<string>+ (void)load {
+    static dispatch_once_t onceToken;
+    dispatch_once(&amp;onceToken, ^{
+        &lt;##&gt;
+    });
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>61426012-95A0-401A-A3AC-89F229A9B831</string>
+	<string>9A2482AB-93D8-457A-8D67-221379784E4A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Extend Implementation Of Void Return Two Arguments</string>
+	<string>load dispatch once</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
