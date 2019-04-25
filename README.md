@@ -39,14 +39,18 @@ git clone https://github.com/QMUI/QMUI_iOS_CodeSnippets.git ./
 - `exchangeImplementation` - 重写当前类的 `load` 方法并在其中用 `swizzle` 替换方法实现
 - `exchangeImplementation_QMUI` - 用 QMUI 重写当前类的 `load` 方法并用 `ExchangeImplementations()` 函数替换方法的实现
 - `exchangeMultipleImplementations_QMUI` - 用 QMUI 重写当前类的 `load` 方法并用 `ExchangeImplementations()` 函数批量替换多个方法的实现
-- `override_void_nonArgv` - 用 QMUI 的 `OverrideImplementation()` 重写指定 class 的某个无返回值、无参数的方法实现
-- `override_void_argv` - 用 QMUI 的 `OverrideImplementation()` 修改指定 class 的某个无返回值、带一个参数的方法实现
-- `override_return_nonA` - 用 QMUI 的 `OverrideImplementation()` 修改指定 class 的某个带返回值、无参数的方法实现
-- `override_return_argv` - 用 QMUI 的 `OverrideImplementation()` 修改指定 class 的某个带返回值、带一个参数的方法实现
-- `extend_void_nonA` - 用 QMUI 的 `ExtendImplementationOfVoidMethodWithoutArguments()` 修改指定 class 的某个无返回值、无参数的方法实现
-- `extend_void_argv` - 用 QMUI 的 `ExtendImplementationOfVoidMethodWithSingleArgument()` 修改指定 class 的某个无返回值、带一个参数的方法实现
-- `extend_return_nonArgv` - 用 QMUI 的 `ExtendImplementationOfNonVoidMethodWithoutArguments()` 修改指定 class 的某个带返回值、无参数的方法实现
-- `extend_return_argv` - 用 QMUI 的 `ExtendImplementationOfNonVoidMethodWithSingleArgument()` 修改指定 class 的某个带返回值、带一个参数的方法实现
+- `override_void_non_argv` - 用 QMUI 的 `OverrideImplementation()` 重写指定 class 的某个无返回值、无参数的方法实现
+- `override_void_single_argv` - 用 QMUI 的 `OverrideImplementation()` 修改指定 class 的某个无返回值、带一个参数的方法实现
+- `override_void_two_argvs` - 用 QMUI 的 `OverrideImplementation()` 修改指定 class 的某个无返回值、带两个参数的方法实现
+- `override_return_non_argv` - 用 QMUI 的 `OverrideImplementation()` 修改指定 class 的某个带返回值、无参数的方法实现
+- `override_return_single_argv` - 用 QMUI 的 `OverrideImplementation()` 修改指定 class 的某个带返回值、带一个参数的方法实现
+- `override_return_two_argvs` - 用 QMUI 的 `OverrideImplementation()` 修改指定 class 的某个带返回值、带两个参数的方法实现
+- `extend_void_non_argv` - 用 QMUI 的 `ExtendImplementationOfVoidMethodWithoutArguments()` 修改指定 class 的某个无返回值、无参数的方法实现
+- `extend_void_single_argv` - 用 QMUI 的 `ExtendImplementationOfVoidMethodWithSingleArgument()` 修改指定 class 的某个无返回值、带一个参数的方法实现
+- `extend_void_two_argvs` - 用 QMUI 的 `ExtendImplementationOfVoidMethodWithTwoArguments()` 修改指定 class 的某个无返回值、带两个参数的方法实现
+- `extend_return_non_argv` - 用 QMUI 的 `ExtendImplementationOfNonVoidMethodWithoutArguments()` 修改指定 class 的某个带返回值、无参数的方法实现
+- `extend_return_single_argv` - 用 QMUI 的 `ExtendImplementationOfNonVoidMethodWithSingleArgument()` 修改指定 class 的某个带返回值、带一个参数的方法实现
+- `extend_return_two_argvs` - 用 QMUI 的 `ExtendImplementationOfNonVoidMethodWithTwoArguments()` 修改指定 class 的某个带返回值、带两个参数的方法实现
 
 
 *Block*
