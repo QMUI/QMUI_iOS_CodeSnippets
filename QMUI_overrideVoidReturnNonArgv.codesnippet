@@ -17,9 +17,6 @@
             originSelectorIMP = (void (*)(id, SEL))originalIMPProvider();
             originSelectorIMP(selfObject, originCMD);
             
-            // avoid superclass
-            if (![selfObject isKindOfClass:originClass]) return;
-            
             &lt;#custom override#&gt;
         };
     });</string>
