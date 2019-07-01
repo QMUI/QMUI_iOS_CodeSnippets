@@ -10,8 +10,7 @@
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>DEPRECATED_MSG_ATTRIBUTE("&lt;#message#&gt;")
-</string>
+	<string>DEPRECATED_MSG_ATTRIBUTE("&lt;#message#&gt;")</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>B3E536D7-2C10-4F21-9FB8-2173A3D5DD8D</string>
 	<key>IDECodeSnippetLanguage</key>
