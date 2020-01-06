@@ -12,13 +12,13 @@
 	<string>+ (instancetype)sharedInstance {
     static dispatch_once_t onceToken;
     static &lt;#class name#&gt; *instance = nil;
-    dispatch_once(&amp;onceToken,^{
+    dispatch_once(&amp;onceToken, ^{
         instance = [[super allocWithZone:NULL] init];
     });
     return instance;
 }
 
-+ (id)allocWithZone:(struct _NSZone *)zone{
++ (id)allocWithZone:(struct _NSZone *)zone {
     return [self sharedInstance];
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
