@@ -27,6 +27,7 @@ git clone https://github.com/QMUI/QMUI_iOS_CodeSnippets.git ./
 - `pa` - 定义一个 `assign` 的 property
 - `par` - 定义一个 `assign, readonly` 的 property
 - `pc` - 定义一个 `copy` 的 property
+- `pcr` - 定义一个 `copy, readonly` 的 property
 - `ps` - 定义一个 `strong` 的property
 - `psr` - 定义一个 `strong, readonly` 的property
 - `pw` - 定义一个 `weak` 的property
@@ -139,6 +140,7 @@ git clone https://github.com/QMUI/QMUI_iOS_CodeSnippets.git ./
 
 *Other*
 - `pragma` - 展开一个用于 Xcode 导航的 `#pragma mark -` 宏
+- `log` - 展开 `NSLog(@"xxx")`
 - `osif` - 展开一个 @available(iOS xxx, \*) 的 if 判断
 - `externRefInH` - 在 `*.h` 文件里声明一个 `extern const` 的指针
 - `externRefInM` - 在 `*.m` 文件里为一个 `extern const` 的指针赋值
