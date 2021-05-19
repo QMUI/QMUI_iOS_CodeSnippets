@@ -15,7 +15,16 @@ Xcode 的 Code Snippets 文件存放于 `~/Library/Developer/Xcode/UserData/Code
 为了方便更新，建议直接将 QMUI iOS CodeSnippets clone 到这个目录内（注意，不是在 CodeSnippets 里创建一个 QMUI 的目录，这里不支持子目录）：
 ```bash
 cd ~/Library/Developer/Xcode/UserData/CodeSnippets
+```
+CodeSnippets 目录为空:
+```bash
 git clone https://github.com/QMUI/QMUI_iOS_CodeSnippets.git ./
+```
+CodeSnippets 目录不为空:
+```bash
+git init .
+git remote add origin https://github.com/QMUI/QMUI_iOS_CodeSnippets.git
+git pull origin master 
 ```
 
 其中以 `QM_` 前缀开头的文件是通用的 Code Snippets，以 `QMUI_` 前缀开头的文件是专用于 `QMUI for iOS` 框架的代码片段。在下方的快捷键汇总里，QMUI 的代码片段将会以QMUI的形式标记出来。
