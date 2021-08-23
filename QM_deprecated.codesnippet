@@ -7,7 +7,6 @@
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
-		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>DEPRECATED_MSG_ATTRIBUTE("&lt;#message#&gt;")</string>

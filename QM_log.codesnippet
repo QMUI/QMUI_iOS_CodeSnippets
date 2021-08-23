@@ -3,18 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>osif</string>
+	<string>log</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if (@available(iOS &lt;#14.0#&gt;, *)) {
-    &lt;#statements#&gt;
-}
-</string>
+	<string>NSLog(@"&lt;##&gt;");</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>EABDAB9C-966F-4442-B386-DFBAC52FF6D9</string>
+	<string>5DD6260F-35C7-46BA-A7FD-B0FD4B55BCE2</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
@@ -22,7 +19,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@available iOS</string>
+	<string>NSLog</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

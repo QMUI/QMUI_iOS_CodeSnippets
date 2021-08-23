@@ -14,6 +14,8 @@
 	<string>3F020BCC-5E6C-4538-A470-1E124BB4DBAE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>extern Value in *.h file</string>
 	<key>IDECodeSnippetUserSnippet</key>
