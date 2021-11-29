@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if (@available(iOS &lt;#14.0#&gt;, *)) {
+	<string>if (@available(iOS &lt;#15.0#&gt;, *)) {
     &lt;#statements#&gt;
 }
 </string>
